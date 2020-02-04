@@ -1,0 +1,107 @@
+body
+{
+    background-color: #CCD9D1;
+    font-family: 'Raleway', sans-serif;
+}
+.nB .navbar img
+{
+    width: 8%;
+    border-radius: 50%;
+}
+.nB .navbar .collapse .navbar-nav a
+{
+    color: snow !important;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* -------- left Side ------- */
+.left .container_left
+{
+    width:50%;
+    position: fixed;
+}
+.left .container_left .col-md-8 #list
+{
+    background-color: #023059;
+    display: none;
+    position: relative;
+}
+.left .container_left #list i
+{
+    margin-left: 85%;
+    cursor: pointer;
+}
+.left .container_left #list ul a
+{
+    color: snow !important;
+    font-size: 20px;
+}
+.left .container_left .col-md-8 #list .container
+{
+    display: none;
+}
+.left .container_left .col-md-8 #list .select .col-md-4 img
+{
+    cursor: pointer;
+}
+
+.left .container_left .col-md-4 .open
+{
+    cursor: pointer;
+    position: absolute;
+    top:100;
+    left: 10px;
+    font-size: 25px;
+}
+
+
+/*------ Services -------*/
+#services .container h2
+{
+    text-align: center;
+    font-weight: 600;
+    color: #8C7E7B;
+    font-size: 50px;
+}
+#services .container .line
+{
+    background-color: #023059;
+    width: 10%;
+    height: 2px;
+}
+#services .container #s2
+{
+    display: none;
+}
+#services .container #s3
+{
+    display: none;
+}
+/* ------ Contacts ------*/
+#contacts .container h2
+{
+    text-align: center;
+    font-weight: 600;
+    color: #8C7E7B;
+    font-size: 50px;
+}
+#contacts .container .line
+{
+    background-color: #023059;
+    width: 10%;
+    height: 2px;
+}
+#contacts .container #c2
+{
+    display: none;
+}
+#contacts .container #c3
+{
+    display: none;
+}
+#contacts .container #c3 .form-group label
+{
+    font-weight: 600;
+    font-size: 18px;
+}
